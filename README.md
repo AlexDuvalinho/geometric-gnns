@@ -1,5 +1,6 @@
 # geometric-gnns
-List of Geometric GNNs for 3D atomic systems
+In this readme, you will find the list of Geometric GNNs, maintained up to date by the community. 
+In the rest of the repository, you also have the [list of datasets for Geometric GNNs](https://github.com/AlexDuvalinho/geometric-gnns/blob/main/coding-libraries.md), as well as a [list of useful coding libraries](https://github.com/AlexDuvalinho/geometric-gnns/blob/main/coding-libraries.md). 
 
 | Model | Year | Family | Tensor order | Body order | Source |
 | :---  | ---: | ---:   | ---:         | ---: | ---: |
