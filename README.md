@@ -3,6 +3,10 @@
 In this readme, you will find the list of Geometric GNNs, maintained up to date by the community. 
 In the rest of the repository, you also have the [list of datasets for Geometric GNNs](https://github.com/AlexDuvalinho/geometric-gnns/blob/main/coding-libraries.md), as well as a [list of useful software libraries](https://github.com/AlexDuvalinho/geometric-gnns/blob/main/software.md). 
 
+
+![Timeline](timeline.pdf)
+
+
 | Model | Year | Family | Tensor type | Body order | Source |
 | :---  | ---: | ---:   | ---:         | ---: | ---: |
 |SchNet| 2017| invariant	| scalar	| 2 | 
