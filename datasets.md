@@ -25,3 +25,9 @@
 | Molecule3D   | SP   | 3.9M           | 4        | Molecules               | Random             | MAE, RMSE, validity  | 2021 | - | [PubChemQC](https://arxiv.org/pdf/2110.01717.pdf) | [Paper](https://arxiv.org/pdf/2110.01717.pdf)[link](https://arxiv.org/pdf/2110.01717.pdf)  |
 | SPICE   | SP |  1.1 M    |  6       |  Molecules          | Random   | MAE        | 2023 | - | [Paper](https://www.nature.com/articles/s41597-022-01882-6),[github](https://github.com/openmm/spice-dataset) |    
 | MatBench Discovery | SP |  150k-250k    |  2      | Crystal Structures        | Varied   | F1, Accuracy, MAE      | 2023 | [MatBench Discovery](https://matbench-discovery.materialsproject.org/models) | [Paper](https://matbench-discovery.materialsproject.org/preprint), [github](https://github.com/openmm/spice-dataset) |
+
+
+PP= Property Prediction
+MD= Molecular Dynamics
+GM= Generative Modelling
+SP= Structure Prediction
