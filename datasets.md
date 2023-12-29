@@ -10,17 +10,19 @@
 | Matbench  | PP    | 1k-100k  | 13     | Molecules      | StratifiedKFold*| MAE, ROC-AUC | 2019 | Mathbench| [Materails Project](https://next-gen.materialsproject.org/)[data](https://ml.materialsproject.org/) | |
 | Atom3D     | PP      | Varied      | 8       | Mol., RNA, Prot. | Varied       | Various    | 2021 | [Varied](https://github.com/drorlab/atom3d)             | % collection = yes
 | Jarvis     | PP      | 1k-800k     | Many   | Random*        | Molecules      | MAE          | 2020* | | [Nist-Jarvis](https://pages.nist.gov/jarvis/databases/)  | [xxx](https://arxiv.org/abs/...) |  % collection = yes
-OC20         | PP,MD  | 560k-133M    | 3        | Materials     | Extrapolation*   | MAE, EwT  | 2020*  | [OCP](https://opencatalystproject.org/)  | [Materials Project](https://next-gen.materialsproject.org/)           |
+|Open MatSci ML Toolkit  | PP, GM | 1.5M  |   Varied  | Crystal Structures | Stratified/Random  |  MAE  |2023* | [Open MatSci ML Toolkit](https://github.com/IntelLabs/matsciml}) | [Paper](https://arxiv.org/abs/2309.05934)[github](https://github.com/IntelLabs/matsciml)
+| Therapeutic Data Commons  | PP | Varied  | Varied     | Molecules, Proteins    | Stratified | Varied         | 2022 | [TDC](https://tdcommons.ai/) |  [Documentation](https://tdcommons.ai/)[github](https://github.com/mims-harvard/TDC)
+| TorchProtein     | PP,SP | Varied       | Varied       | Proteins                 | Stratified | Varied         | 2022 | | [TorchProtein](https://torchprotein.ai/benchmark) | [Paper](https://arxiv.org/abs/2206.02096)[github](https://github.com/DeepGraphLearning/PEER_Benchmark)
+| TorchDrug    | PP,GM  | Varied       | Varied       | Molecules                 | Stratified  | Varied         | 2022 | [TorchDrug](https://torchdrug.ai/) | [Paper](https://arxiv.org/abs/2202.08320)[github](https://github.com/DeepGraphLearning/torchdrug/)
+| OC20         | PP,MD  | 560k-133M    | 3        | Materials     | Extrapolation*   | MAE, EwT  | 2020*  | [OCP](https://opencatalystproject.org/)  | [Materials Project](https://next-gen.materialsproject.org/)           |
 | OC22       | PP,MD  | 50k-10M      | 3       | Materials      | Extrapolation*    | MAE, EwT     | 2022* | OCP| [Materials Project](https://materialsproject.org/)           |
+| ODAC23     | PP, MD |  <40M        | 3       | Catalyst, MOF |   Extrapolation   | MAE, EwT     | 2023* | [Paper](https://pubs.acs.org/doi/10.1021/acscatal.2c05426)[github](https://github.com/Open-Catalyst-Project/ocp) |
 | QM7-X      | PP,MD  | 4.2M        | 42       | Molecule       | Extrapolation | MAE  | 2022 | - | [GDB-13](https://gdb.unibe.ch/downloads/) |
 | MD17       | MD     | 150k-1M         | 10        | Molecule                 | ?               | MAE                  | 2017* | [info](http://quantum-machine.org/datasets/)[PyG](https://pytorch-geometric.readthedocs.io/en/latest/generated/torch_geometric.datasets.MD17.html#torch_geometric.datasets.MD17)[HF](https://huggingface.co/graphs-datasets)[git](https://github.com/atomistic-machine-learning/schnetpack/blob/dce002f1befe9bd1ccd5efb7651a1f6ed7c224a8/src/schnetpack/datasets/md17.py#L188)             |
-| ISO17      | MD    | 645K          | 1       | Molecule                 | Extrapolation          | MAE                | 2016 | - | [QM9](http://www.quantum-machine.org/datasets/#md-datasets)             | -
-| MDAnalysis | MD    | 
-| 3BPA       | MD    | 2,139         | 1      | Molecule                  | -                  | RMSE                   | 2020 | - | [xxx](...)             |
-| GEOM       | GM    | 37M           | 1      | Molecule                  | Random             | MAE, RMSD              | 2021* | GEOM | [github](https://github.com/learningmatter-mit/geom) |
+| ISO17      | MD    | 645K          | 1       | Molecule                 | Extrapolation          | MAE                | 2016 | - | [QM9](http://www.quantum-machine.org/datasets/#md-datasets)             |
+| GEOM       | GM    | 37M           | 1      | Molecule                  | Random             | MAE, RMSD              | 2021* | GEOM | 
+[Paper](https://www.nature.com/articles/s41597-022-01288-4) [github](https://github.com/learningmatter-mit/geom) |
 | ProteinNet   | SP   | -              | -        | -                   | -               | -                    |  | -             | - |
 | Molecule3D   | SP   | 3.9M           | 4        | Molecules               | Random             | MAE, RMSE, validity  | 2021 | - | [PubChemQC](https://arxiv.org/pdf/2110.01717.pdf) |    % Scaffold        |
-| CASP         | SP   | 45K            | 1        | Proteins                | ?*   | ?        | 2013* | - | [link](https://arxiv.org/pdf/2110.01717.pdf)             |
-| ModelNet     | CV  | -          | -        | -                   | -               | -                    |  | -             | |
-| ShapeNet     | CV   | -          | -        | -                   | -               | -                    |  | -             | |
-| ScanNet      | CV  | -          | -        | -                   | -               | -                    |  | -             |  |
+| SPICE   | SP |  1.1 M    |  6       |  Molecules          | Random   | MAE        | 2023 | - | [Paper](https://www.nature.com/articles/s41597-022-01882-6)[github](https://github.com/openmm/spice-dataset) |    
+| MatBench Discovery | SP |  150k-250k    |  2      | Crystal Structures        | Varied   | F1, Accuracy, MAE      | 2023 | [MatBench Discovery](https://matbench-discovery.materialsproject.org/models) | [Paper](https://matbench-discovery.materialsproject.org/preprint) [github](https://github.com/openmm/spice-dataset) |
