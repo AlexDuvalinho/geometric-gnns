@@ -1,7 +1,7 @@
 # Geometric-GNNs
 
 In this readme, you will find a list of Geometric GNNs for 3D atomic systems, (hopefully) maintained up-to-date by the community. 
-For each method, we include its associated Geometric GNN family, tensor type and body order information. More details are provided in our [hitchhiker's guide](https://arxiv.org/abs/2312.07511). \
+For each method, we include its associated Geometric GNN family, tensor type and body order information. Check out the accompanying paper for more details: [A Hitchhiker's Guide to Geometric GNNs for 3D atomic systems ](https://arxiv.org/abs/2312.07511).
 
 In the rest of the repository, you will find a [list of datasets for Geometric GNNs](https://github.com/AlexDuvalinho/geometric-gnns/blob/main/coding-libraries.md) as well as a [list of useful software libraries](https://github.com/AlexDuvalinho/geometric-gnns/blob/main/software.md). 
 
@@ -53,4 +53,22 @@ In the rest of the repository, you will find a [list of datasets for Geometric G
 |eSCN|	2023|	equivariant|	spherical|	2| [paper](https://arxiv.org/abs/2302.03655)|
 |FAENet|	2023|	unconstrained | scalar |	Many| [paper](https://arxiv.org/abs/2305.05577)|
 
-<figure><center><img src="image/axes.png" width="100%"></center></figure>
+<figure><center><img src="image/axes.png" width="75%"></center></figure>
+
+
+## Contact
+
+Authors: Alexandre Duval (alexandre.duval@mila.quebec), Simon V. Mathis (simon.mathis@cl.cam.ac.uk), Chaitanya K. Joshi (chaitanya.joshi@cl.cam.ac.uk), Victor Schmidt (schmidtv@mila.quebec). 
+
+We welcome your questions and feedback via email or GitHub Issues.
+
+## Citation
+
+```
+@article{duval2023hitchhikers,
+  title   = {A Hitchhiker's Guide to Geometric GNNs for 3D Atomic Systems},
+  author  = {Alexandre Duval and Simon V. Mathis and Chaitanya K. Joshi and Victor Schmidt and Santiago Miret and Fragkiskos D. Malliaros and Taco Cohen and Pietro Lio and Yoshua Bengio and Michael Bronstein},
+  year    = {2023},
+  journal = {arXiv preprint arXiv: 2312.07511}
+}
+```
