@@ -27,7 +27,7 @@
 | MatBench Discovery | SP |  150k-250k    |  2      | Crystal Structures        | Varied   | F1, Accuracy, MAE      | 2023 | [MatBench Discovery](https://matbench-discovery.materialsproject.org/models) | [Paper](https://matbench-discovery.materialsproject.org/preprint), [github](https://github.com/openmm/spice-dataset) |
 
 
-PP= Property Prediction \\
-MD= Molecular Dynamics \\
-GM= Generative Modelling \\
-SP= Structure Prediction \\
+PP= Property Prediction \
+MD= Molecular Dynamics \
+GM= Generative Modelling \
+SP= Structure Prediction \
