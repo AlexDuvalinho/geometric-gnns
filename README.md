@@ -9,7 +9,7 @@ In the rest of the repository, you will find a [list of datasets for Geometric G
 <figure><center><img src="image/timeline.png" width="100%"></center></figure>
 
 
-| Model | Year | Family | Tensor type | Body order | Source |
+| Method | Year | Family | Tensor type | Body order | Source |
 | :---  | ---: | ---:   | ---:         | ---: | ---: |
 |SchNet| 2017| invariant	| scalar	| 2 | [paper](https://arxiv.org/pdf/1706.08566.pdf) |
 |CGCNN|	2017|	invariant|	scalar|	2| [paper](https://arxiv.org/abs/1710.10324)|
@@ -45,7 +45,7 @@ In the rest of the repository, you will find a [list of datasets for Geometric G
 |MACE|	2022|	equivariant|	spherical |Many| [paper](https://arxiv.org/abs/2206.07697)|
 |GemNet-OC|	2022|	invariant|	scalar|	4| [paper](https://arxiv.org/abs/2204.02782)|
 |ClofNet|	2022|	equivariant|	cartesian|	| [paper](https://arxiv.org/pdf/2110.14811.pdf)|
-|Allegro| 2022| equivariant |  spherical || [paper](https://arxiv.org/abs/2204.05249)|
+|Allegro| 2022| equivariant |  spherical | Many| [paper](https://arxiv.org/abs/2204.05249)|
 |LEFTNet|	2023 | equivariant|	cartesian || [paper](https://arxiv.org/abs/2304.04757)|
 |ViSNet-LSRM|	2023|	equivariant |	cartesian|	| [paper](https://arxiv.org/pdf/2304.13542.pdf)|
 |SCN|	2023|	unconstrained|	spherical	| | [paper](https://arxiv.org/abs/2206.14331)|
