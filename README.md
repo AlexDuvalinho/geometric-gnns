@@ -16,7 +16,7 @@ In the rest of the repository, you will find a [list of datasets for Geometric G
 |TFN|	2018|	equivariant|	spherical|	2|  [paper](https://arxiv.org/pdf/1802.08219.pdf)|
 |PhysNet|	2019|	invariant|	scalar|	2| [paper](https://arxiv.org/pdf/1902.08408.pdf) |
 |DimeNet|	2019|	invariant|	scalar|	3| [paper](https://arxiv.org/pdf/2003.03123.pdf)|
-|MEGnet|	2019|	invariant||		| [paper](https://reader.elsevier.com/reader/sd/pii/S1053811921006777)|
+|MEGnet|	2019|	invariant||		| [paper](https://arxiv.org/abs/1812.05055)|
 |Cormorant|	2019|	equivariant|	spherical|	2| [paper](https://arxiv.org/pdf/1906.04015.pdf)|
 |DimeNet++|	2020|	invariant|	scalar|	3| [paper](https://arxiv.org/abs/2011.14115)|
 |GVP-GNN|	2020|	equivariant|	cartesian|	3| [paper](https://arxiv.org/pdf/2009.01411.pdf)|
