@@ -3,7 +3,7 @@
 In this readme, you will find a list of Geometric GNNs for 3D atomic systems, (hopefully) maintained up-to-date by the community. 
 For each method, we include its associated Geometric GNN family, tensor type and body order information. Check out the accompanying paper for more details: [A Hitchhiker's Guide to Geometric GNNs for 3D atomic systems ](https://arxiv.org/abs/2312.07511).
 
-In the rest of the repository, you will find a [list of datasets for Geometric GNNs](https://github.com/zetayue/geometric-gnns/blob/main/datasets.md) as well as a [list of useful software libraries](https://github.com/AlexDuvalinho/geometric-gnns/blob/main/software.md). 
+In the rest of the repository, you will find a [list of datasets for Geometric GNNs](https://github.com/AlexDuvalinho/geometric-gnns/blob/main/datasets.md) as well as a [list of useful software libraries](https://github.com/AlexDuvalinho/geometric-gnns/blob/main/software.md). 
 
 
 <figure><center><img src="image/timeline.png" width="100%"></center></figure>
